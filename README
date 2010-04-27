@@ -7,4 +7,12 @@ Download XML-RPC for PHP from http://phpxmlrpc.sourceforge.net/
 
 Extract this file in root AfinimaKi.php
 
+Examples
+--------
+
+There are two dir with example applications:
+
+1) (example) Top 100 NES Games applications with some method used by AfinimaKi Engine.
+2) (client) Clean example applications with all method used by AfinimaKi Engine.
+
 Enjoy!
