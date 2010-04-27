@@ -1,1 +1,10 @@
 AfinimaKi API Client PHP is a PHP implementation of Perl Client to use AfinimaKi Engine.
+
+Requirements
+------------
+
+Download XML-RPC for PHP from http://phpxmlrpc.sourceforge.net/
+
+Extract this file in root AfinimaKi.php
+
+Enjoy!
