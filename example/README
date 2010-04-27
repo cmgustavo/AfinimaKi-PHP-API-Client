@@ -1,0 +1,46 @@
+Top 100 NES Games
+-----------------
+
+Example application in CakePHP that use Afinimaki Recommendations Engine.
+
+Requirements
+------------
+
+* Apache web server.
+* Mysql database server
+* MVC knowledge
+
+CakePHP
+-------
+
+This application use official CakePHP package, with follow elements:
+
+* Rate plugin (customized): http://bakery.cakephp.org/articles/view/ajax-star-rating-plugin-1
+* Facebook API: http://wiki.developers.facebook.com/index.php/PHP
+* AfinimaKi API: 
+
+Installation
+------------
+
+1) unpack top100nesgames.(zip/tar.gz) in your webroot
+2) restore database with top100nesgames.sql
+3) get API key (public and secret) from AfinimaKi
+3) create application in Facebook.com. Then get Keys.
+4) config database connection in /app/config/database.php
+5) config AfinimaKi server connection in /app/controller/games_controller.php
+
+Use
+---
+
+1) go http://<your_host>/top100nesgames/
+2) click login, then login Facebook Connect
+3) rate some items
+4) get recommendations
+5) enjoy!
+
+Issue
+-----
+
+AfinimaKi Recommendations Engine use miles of items to get callifications and 
+recommendations. If your applications don't rate nothing, you must insert some 
+dummy users and rate more items. You could add more items for get recommendations too.
